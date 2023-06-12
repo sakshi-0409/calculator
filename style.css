@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(cyan, rgb(97, 97, 236), rgb(187, 167, 167));
+    background-repeat: no-repeat;
+    height: 629px;
+}
+.container{
+    display: block;
+    margin: auto;
+}
+.outputBox{
+    border: 2px solid black;
+    height: 40px;
+    width: 150px;
+    font-size: large;
+    margin: 2px;
+    text-align-last: right;
+}
+.btn{
+    display: inline-flex;
+    cursor: pointer;
+    padding: 5px;
+    height: 32px;
+    width: 32px;
+    font-size: large;
+    margin: 2px;
+    align-items: center;
+    background-color: rgb(155, 238, 210);
+    border: 1px solid cyan;
+    border-radius: 5px;
+    color: rgb(3, 73, 73);
+}
+.btn:hover{
+    /* transition: ease-in-out; */
+    height: 34px;
+    width: 34px;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+}
